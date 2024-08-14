@@ -14,7 +14,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CommentDto {
-    private Long comment_id;
+    private Long commentId;
     private Long user;
     private Long post;
     private String text;
