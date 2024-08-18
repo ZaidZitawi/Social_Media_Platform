@@ -6,12 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class MediaDto {
-    private Long mediaId;
-    private Long post;
-    private String mediaType;
-    private String mediaUrl;
+private Long mediaId;
+private Long post;
+private String mediaType;
+private String mediaUrl;
 }

@@ -9,9 +9,7 @@ import lombok.NoArgsConstructor;
 import java.sql.Timestamp;
 import java.util.Set;
 @Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
+
 
 public class PostDto {
     private Long postId;

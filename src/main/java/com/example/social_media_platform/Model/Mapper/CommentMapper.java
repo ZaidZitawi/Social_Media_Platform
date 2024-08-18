@@ -84,7 +84,6 @@ public interface CommentMapper {
                         .userEntity(mapUserEntityToLong(like.getUserEntity()))
                         .post(mapPostToLong(like.getPost()))
                         .comment(mapCommentToLong(like.getComment()))
-                        .date(like.getDate())
                         .build())
                 .collect(Collectors.toSet());
     }
@@ -101,7 +100,6 @@ public interface CommentMapper {
                     like.setUserEntity(mapLongToUserEntity(likeDto.getUserEntity()));
                     like.setPost(mapLongToPost(likeDto.getPost()));
                     like.setComment(mapLongToComment(likeDto.getComment()));
-                    like.setDate(likeDto.getDate());
                     return like;
                 })
                 .collect(Collectors.toSet());
