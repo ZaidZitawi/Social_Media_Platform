@@ -27,10 +27,6 @@ This is a simple social media platform project that allows users to manage their
 
 ![image](https://github.com/user-attachments/assets/f47e1927-49b6-4d76-9d3d-9dec71627413)
 
-## Swagger UI
-
-After running the backend, access the Swagger UI at:
-
 ## Endpoints
 
 ### User Controller
